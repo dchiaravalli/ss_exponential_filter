@@ -1,0 +1,13 @@
+<launch>
+  <node pkg="ss_exponential_filter" type="sloshing_suppresion_line_main" name="sloshing_suppresion_line_main" />
+  <param name="fir_period_1" type="double" value="0.7110" />
+  <param name="fir_period_2" type="double" value="0.3555" />
+  <param name="period" type="double" value="0.2370" />
+  <param name="sampling" type="double" value="0.002" />
+  <param name="pos_x" type="double" value="0.166079" />
+  <param name="pos_y" type="double" value="0.00287239" />
+  <param name="pos_z" type="double" value="-0.131079" />
+  <param name="compensation" type="bool" value="true" />
+  <param name="reverse" type="bool" value="false"/>
+  <param name="displacement" type="double" value="0.8" />
+</launch>

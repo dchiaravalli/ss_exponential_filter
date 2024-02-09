@@ -1,0 +1,9 @@
+trajectory_msgs/JointTrajectoryPoint new_point
+std_msgs/Bool set_initial_pos
+std_msgs/Bool new_trajectory
+trajectory_msgs/JointTrajectoryPoint initial_pose
+string username
+
+--------------------------------------
+
+trajectory_msgs/JointTrajectoryPoint filtered_point

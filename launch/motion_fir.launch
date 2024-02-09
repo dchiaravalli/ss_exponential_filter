@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="ss_exponential_filter" type="motion_planner_fir" name="motion_planner_fir" output="screen"/>
+  <param name="acceleration" type="double" value="2.7" />
+  <param name="pos_y" type="double" value="-0.4" />
+</launch>

@@ -1,0 +1,3 @@
+trajectory_msgs/JointTrajectory traj
+std_msgs/Bool set_initial_pos
+trajectory_msgs/JointTrajectoryPoint initial_pose

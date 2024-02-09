@@ -1,0 +1,8 @@
+#goal definition
+int32 order
+---
+#result definition
+std_msgs/Float64MultiArray position
+---
+#feedback
+int32[] sequence
